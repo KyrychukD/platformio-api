@@ -56,3 +56,8 @@ class APIBadRequest(PlatformioAPIException):
 
 class APINotFound(PlatformioAPIException):
     pass
+
+
+class RemoteBranchNotFound(PlatformioAPIException):
+
+    MESSAGE = "Remote branch %s not found in upstream origin"

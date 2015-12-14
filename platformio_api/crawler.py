@@ -128,6 +128,9 @@ class LibSyncer(object):
         # archive current library version
         self.archive()
 
+        # Update build repository
+
+
         return self.config['id']
 
     def sync_version(self, version):
